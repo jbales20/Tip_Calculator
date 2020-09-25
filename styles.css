@@ -1,0 +1,46 @@
+body{
+    font-family: Verdana;
+    background: #2e2e2e;
+    color: white;
+}
+
+.input{
+    margin: 9px;
+    font-size: 17px;
+    border-width: 4px;
+    border-color: #9b9b9b;
+    background-color: #5c5c5c;
+    color: #ffffff;
+    border-style: double;
+    border-radius: 7px;
+    box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+    text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+    text-align: center;
+    width:100px;
+}
+.input:focus {
+    outline:none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#title, #tip_pay, #boxes{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
+    margin-top: 20px;
+}
+
+#bill_label, #bill, #display, #split, #split_bill, #total, #total_bill{
+    margin-left: 10px;
+}
+
+#display, #split, #total{
+    font-size: 19px;
+    font-weight: bolder;
+}
